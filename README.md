@@ -1,4 +1,4 @@
-<h1>Project Title - <b>RFID</b>Attendance System with <i>Website UI</i> & <i>SQL Database</i></h1>
+<h1>Project Title - <b>RFID</b> Attendance System with <i>Website UI</i> & <i>SQL Database</i></h1>
 <p>My project is to develop a remote site low-cost <b>RFID</b> Attendance System with <i>Website UI</i> & <i>SQL Database</i></p>
 <br>
 <h2>Need of the Project</h2>
