@@ -1,6 +1,8 @@
 <h1>Project Title - <b>RFID</b> Attendance System with <i>Website UI</i> & <i>SQL Database</i></h1>
 <p>My project is to develop a remote site low-cost <b>RFID</b> Attendance System with <i>Website UI</i> & <i>SQL Database</i></p>
 <br>
+<img src="https://drive.google.com/file/d/1EaAlEutcbHNaETe_XokqCBr1suZM9gVW/view?usp=sharing" width="155">
+<br>
 <h2>Need of the Project</h2>
 <p>Since my company seeks to replace inefficient manual recording methods such as roll-calling or signing in on paper, with a reliable & accurate solution, as a system can automatically generate attendance record by using Radio Frequency Identification (RFID reader) and web application tech, instead of traditional manual records, to allow frontline staff can effectively take attendance when arrived & started working there.</p>
 <br>
