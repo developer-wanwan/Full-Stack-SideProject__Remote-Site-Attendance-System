@@ -9,7 +9,6 @@
 <p>Also, my system would ensure the prompt generation of accurate attendance records, including time-in, time-out and duration data on the terminal interface, to provide management and HR teams with up-to-date information for pair decision-making, for example, to allow them to calculate each frontline staff’s wage conveniently.</p>
 <br>
 <p>Ideally, the developing cost of my attendance system would be at a cost not exceeding $200 per site. By keeping the implementation of low-cost, my company can achieve enhanced operational efficiency without incurring significant expenses and allows company’s businesses to adopt modern tracking systems without straining over budgets.</p>
-<br>
 <h2>System Overview</h2>
 <p>My attendance system is necessary to enhance operating seamlessly through a website user- interface hosted on a local server, utilizing web make-up & programming language including PHP, CSS & JavaScript for dynamic functionality, to
 facilitating effectively the automatic registration of attendance for each frontline staff.</p>
@@ -25,7 +24,6 @@ facilitating effectively the automatic registration of attendance for each front
 <h3>Step 2: </h3>
 <p>Connect the power supply to the ESP32 with a USB Data Cable to ensure it is powered on. Then, install the Virtual COM Port (VCP) driver to allow ESP32 activate matching with computer and functioning properly by checking in “Device Manger”.</p>
 <a href="https://www.silabs.com/developer-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads" target="_blank">> Download CP210x USB to UART Bridge VCP Drivers</a> 
-<br>
 <h3>Step 3</h3>
 <p>Connect ESP32 to computer and select the appropriate COM port by going to “Tools -> -> Port. COM (4)”. COM (4) is from checking the Device Manager to identify. Then, select the NodeMCU 1.0 (ESP32 Dev Module) by clicking “Tools -> Board” and scrolling down to find it. After that, download and install the MFRC522 library and Wifi library on "Manage Library", which are essential for interfacing with the ESP32 & RFID reader. Place the libraries on the codes of the below program, that scans RFID cards, adds SSID, SSID's password and device_tokens* and an ip-address, that is found by entering ipconfig on CMD, to local server & database, and trigger attendance records while tagging cards with Wi-Fi connectivity. Finally, start uploading the program to ESP32 and the <b>Hardware Part</b> is set up!</p>
 <br>
