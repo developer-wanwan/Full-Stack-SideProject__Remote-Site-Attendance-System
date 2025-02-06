@@ -23,3 +23,12 @@ facilitating effectively the automatic registration of attendance for each front
 <h3>Step 3</h3>
 <p>Connect ESP32 to computer and select the appropriate COM port by going to “Tools -> -> Port. COM (4)”. COM (4) is from checking the Device Manager to identify. Then, select the NodeMCU 1.0 (ESP32 Dev Module) by clicking “Tools -> Board” and scrolling down to find it. After that, download and install the MFRC522 library and Wifi library on "Manage Library", which are essential for interfacing with the ESP32 & RFID reader. Place the libraries on the codes of the below program, that scans RFID cards, adds SSID, SSID's password and device_tokens* and an ip-address, that is found by entering ipconfig on CMD, to local server & database, and trigger attendance records while tagging cards with Wi-Fi connectivity. Finally, start uploading the program to ESP32 and the <b>Hardware Part</b> is set up!</p>
 <i>* Create & Add device_token on website UI on the Software Part</i>
+<h3>Software Setup</h3>
+<h3>Step 1: </h3>
+<a href="https://www.apachefriends.org" target="_blank">> Download XAMPP application to setup the system environment</a> 
+<h3>Step 2: </h3>
+<p>Launch the application, then click to start both Apache & MySQL services on the interface to enable simulated local server and database. Secondly, put all the php, css & js documents into the C:\xampp\htdocs\ directory.</p>
+<h3>Step 3: </h3>
+<p>Open a browser & enter the URL “127.0.0.1/rfidattendance”. The System's Login Page will be displayed, and then enter the Admin Email as admin@gmail.com, and password as 123, to access the system. Once logged in, a dashboard will be gained access, where you can manage staff, view attendance records & add cards.</p>
+<h3>Step 4: </h3>
+<p>On the database side, to connect the MySQL database to attendance system, enter “127.0.0.1/phpmyadmin” to reach the “phpmyadmin” page. Click on the database tab and create a new database named “rfidattendance.” After that, select the import tab, and click on the browse file button to locate the “rfidattendance.sql” file within the rfidattendance folder. Once selected, click on Go to import the SQL file. This step sets up the necessary tables and structures in the database, enabling attendance system to store and manage data effectively, and the <b>Software Part</b> is set up!</p>
